@@ -3,7 +3,7 @@
 
 1. Zaliczenie:
  - [ ] [Sprzedaż karnetów na festiwal muzyczny](zaliczenie)
- - [ ] [https://asi-damian11.c9users.io/](/)
+ - [ ] [https://asi-1-damian11.c9users.io/](/)
 
 
 * wersję języka Ruby (jakakolwiek wersja ~> 2.2)
