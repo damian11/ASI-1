@@ -26,7 +26,7 @@ group :development do
 end
 
 
-
+gem 'faker', '~> 1.6', '>= 1.6.3'
 
 gem 'bootstrap-sass-extras', '~> 0.0.6'
 # Use jquery as the JavaScript library
@@ -59,3 +59,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'bootstrap-will_paginate', '0.0.10'

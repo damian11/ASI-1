@@ -12,4 +12,14 @@
  *
  *= require_tree .
  *= require_self
+
  */
+body{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dae1e5+0,cedce7+19,c5d3db+29,979da0+58,b9cace+82,dae1e5+100 */
+background: rgb(218,225,229); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(218,225,229,1) 0%, rgba(206,220,231,1) 19%, rgba(197,211,219,1) 29%, rgba(151,157,160,1) 58%, rgba(185,202,206,1) 82%, rgba(218,225,229,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(218,225,229,1) 0%,rgba(206,220,231,1) 19%,rgba(197,211,219,1) 29%,rgba(151,157,160,1) 58%,rgba(185,202,206,1) 82%,rgba(218,225,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(218,225,229,1) 0%,rgba(206,220,231,1) 19%,rgba(197,211,219,1) 29%,rgba(151,157,160,1) 58%,rgba(185,202,206,1) 82%,rgba(218,225,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dae1e5', endColorstr='#dae1e5',GradientType=0 ); /* IE6-9 */
+
+}

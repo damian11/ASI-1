@@ -41,3 +41,6 @@
 <%= link_to t('.new', default: t("helpers.links.dodaj")),
             new_gist_path,
             class: 'btn btn-primary' %>
+<div class="text-center">
+<%= will_paginate @gists %>
+</div>
