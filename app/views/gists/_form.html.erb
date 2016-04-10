@@ -1,29 +1,28 @@
-<%= form_for(@gist) do |f| %>
-  <% if @gist.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@gist.errors.count, "error") %> prohibited this gist from being saved:</h2>
-
-      <ul>
-      <% @gist.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
+<%= form_for @gist, html: { class: 'form-horizontal' } do |f| %>
+  <div class="form-group">
+    <%= f.label :imie, class: 'control-label col-md-2' %>
+    <div class="col-md-10">
+      <%= f.text_field :imie, class: 'text_field form-control' %>
     </div>
-  <% end %>
+  </div>
+  <div class="form-group">
+    <%= f.label :nazwisko, class: 'control-label col-md-2' %>
+    <div class="col-md-10">
+      <%= f.text_field :nazwisko, class: 'text_field form-control' %>
+    </div>
+  </div>
+  <div class="form-group">
+    <%= f.label :karnet, class: 'control-label col-md-2' %>
+    <div class="col-md-10">
+      <%= f.text_field :karnet, class: 'text_field form-control' %>
+    </div>
+  </div>
 
-  <div class="field">
-    <%= f.label :imie %><br>
-    <%= f.text_area :imie %>
-  </div>
-  <div class="field">
-    <%= f.label :nazwisko %><br>
-    <%= f.text_field :nazwisko %>
-  </div>
-  <div class="field">
-    <%= f.label :karnet %><br>
-    <%= f.text_field :karnet %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
+  <div class="form-group">
+    <div class='col-md-offset-2 col-md-10'>
+      <%= f.submit nil, class: 'btn btn-primary' %>
+      <%= link_to t('.cancel', default: t("helpers.links.cancel")),
+                  gists_path, class: 'btn btn-default' %>
+    </div>
   </div>
 <% end %>
